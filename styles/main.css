@@ -3,14 +3,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* custom vars */
 :root {
   --color-background: #F9F4FB;
   --color-background-linear: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
-  
+
   --color-title: #B52184;
   --color-text-primary: #312D64;
   --color-text-secondary: #FFF;
+
+  font-size: 62.5%; /* 10px */
+}
+
+/* tags styling */
+body {
+  background: var(--color-background);
+}
+
+body,
+input,
+button,
+textarea {
+  font: 600 1.6rem 'Mulish', sans-serif;
+  color: var(--color-text-primary);
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* basic classes */
+.container {
+  width: min(1440px, 84.5vw);
+  margin: 0 auto;
 }

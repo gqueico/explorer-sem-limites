@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.7rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: var(--color-title);
+}
+
+.description {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.down-arrow {
+  margin-top: 3.5rem;
+}
