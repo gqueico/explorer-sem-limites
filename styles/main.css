@@ -1,0 +1,16 @@
+/* global remove user-agent styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* custom vars */
+:root {
+  --color-background: #F9F4FB;
+  --color-background-linear: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+  
+  --color-title: #B52184;
+  --color-text-primary: #312D64;
+  --color-text-secondary: #FFF;
+}
