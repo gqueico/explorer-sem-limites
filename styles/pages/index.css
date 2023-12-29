@@ -54,3 +54,35 @@
 #cards .card p {
   width: 26.6rem;
 }
+
+#form {
+  padding: 7.8rem 0 6.5rem;
+}
+
+#form h2 {
+  margin-bottom: 4.2rem;
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: var(--color-title);
+}
+
+#form .input-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 1.2rem;
+  width: 100%;
+  padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+  border: 2px solid var(--color-text-primary);
+  border-radius: 1.6rem;
+}
+
+#form .input-wrapper input {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  font-weight: 600;
+}
+
+#form .input-wrapper input::placeholder {
+  color: var(--color-text-primary);
+}
