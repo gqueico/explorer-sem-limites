@@ -66,23 +66,22 @@
   color: var(--color-title);
 }
 
-#form .input-wrapper {
-  display: flex;
-  align-items: center;
-  column-gap: 1.2rem;
+#form input {
   width: 100%;
-  padding: 1.2rem 1.6rem 1.2rem 1.4rem;
-  border: 2px solid var(--color-text-primary);
+  padding: 1.2rem 1.6rem 1.2rem 5rem;
+  border: .2rem solid var(--color-text-primary);
   border-radius: 1.6rem;
-}
-
-#form .input-wrapper input {
-  width: 100%;
   background-color: transparent;
+  background-image: url(../../images/person.svg);
+  background-repeat: no-repeat;
+  background-position: center left 1.4rem;
   outline: none;
-  font-weight: 600;
 }
 
-#form .input-wrapper input::placeholder {
+#form input::placeholder {
   color: var(--color-text-primary);
+}
+
+#form input:focus {
+  border: .2rem solid var(--color-title);
 }
