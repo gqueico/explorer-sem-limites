@@ -66,22 +66,61 @@
   color: var(--color-title);
 }
 
+#form form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
 #form input {
   width: 100%;
   padding: 1.2rem 1.6rem 1.2rem 5rem;
   border: .2rem solid var(--color-text-primary);
   border-radius: 1.6rem;
   background-color: transparent;
-  background-image: url(../../images/person.svg);
   background-repeat: no-repeat;
   background-position: center left 1.4rem;
   outline: none;
 }
 
-#form input::placeholder {
+#form textarea {
+  max-width: 59.2rem;
+  height: 12.6rem;
+  padding: 1.2rem 1.6rem 1.6rem;
+  border: .2rem solid var(--color-text-primary);
+  border-radius: 1.6rem;
+  background-color: transparent;
+  outline: none;
+}
+
+#form input[type="text"] {
+  background-image: url(../../images/person.svg);
+}
+
+#form input[type="email"] {
+  background-image: url(../../images/at.svg);
+}
+
+#form input::placeholder,
+#form textarea::placeholder {
   color: var(--color-text-primary);
 }
 
-#form input:focus {
+#form input:focus,
+#form textarea:focus {
   border: .2rem solid var(--color-title);
+}
+
+#form button {
+  width: 15.2rem;
+  height: 4.5rem;
+  padding-inline: 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-text-secondary);
+  background: var(--color-background-linear);
+  border-radius: 1.6rem;
 }

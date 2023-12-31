@@ -54,11 +54,15 @@
 
         <form>
           <label for="your-name" class="sr-only">Seu nome</label>
-          <input type="text" id="your-name" placeholder="Seu nome" required>
+          <input type="text" id="your-name" placeholder="Seu nome" autocomplete="off" required>
 
-          <!-- <div class="input-wrapper">
-            <img src="./images/person.svg" alt="Ícone Usuário">
-          </div> -->
+          <label for="email" class="sr-only">Email</label>
+          <input type="email" id="email" placeholder="Email" autocomplete="off" required>
+
+          <label for="message" class="sr-only">Digite sua mensagem aqui...</label>
+          <textarea id="message" placeholder="Digite sua mensagem aqui..."></textarea>
+
+          <button type="submit">Enviar mensagem</button>
         </form>
       </section>
     </div>
