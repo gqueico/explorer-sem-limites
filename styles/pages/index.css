@@ -5,6 +5,10 @@
   padding-bottom: 9.3rem;
 }
 
+#main img {
+  width: min(72rem, 100%);
+}
+
 #main .wrapper-text {
   display: flex;
   flex-direction: column;
