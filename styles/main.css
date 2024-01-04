@@ -40,7 +40,7 @@ a {
 
 /* basic classes */
 .container {
-  width: min(1440px, 84.5vw);
+  width: min(1218px, 84.5vw);
   margin: 0 auto;
 }
 
