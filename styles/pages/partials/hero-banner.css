@@ -32,7 +32,7 @@
 
 #hero-banner .down-arrow {
   margin-top: 2rem;
-  animation: moveDown 1s alternate infinite ease-in-out, fadeInLeftBig 1s .8s backwards;
+  animation: fadeInLeftBig 1s .8s backwards, moveDown .5s 2s alternate infinite ease-in-out;
 }
 
 #hero-banner .down-arrow:hover {
