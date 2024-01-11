@@ -1,0 +1,25 @@
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7.8rem;
+  padding: 1.6rem;
+  background: var(--color-background-linear);
+}
+
+#footer p {
+  font-size: 1.6rem;
+  color: var(--color-text-secondary);
+}
+
+@media screen and (min-width: 23.4em) {
+  #footer p {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 26.5em) {
+  #footer p {
+    font-size: 2rem;
+  }
+}
