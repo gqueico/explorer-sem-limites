@@ -67,6 +67,11 @@
   background: var(--color-background-linear);
   border-radius: 1.6rem;
   cursor: pointer;
+  transition: filter 200ms ease-in-out;
+}
+
+#form button:hover {
+  filter: brightness(1.2);
 }
 
 @media screen and (min-width: 23.4em) {
